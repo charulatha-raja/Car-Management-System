@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: CarManagement
+  datasource:
+    url: jdbc:mysql://localhost:3306/sys
+    username: root
+    password: SYSTEM
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect
+    show-sql: true  
+server:
+  port: 9088
